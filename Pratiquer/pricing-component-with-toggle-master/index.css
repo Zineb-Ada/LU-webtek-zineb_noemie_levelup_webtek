@@ -1,0 +1,114 @@
+/* * {
+    margin:0px;
+    overflow: hidden;
+} */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E4FBFF;
+    background-image: image(images/bg-top), image(images/bg-bottom);
+    /* background-image: url(/images/bg-top.svg), url(/images/bg-bottom.svg); */
+    /* background-position: top; */
+}
+
+header{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(233, 13%, 49%);
+}
+
+#switch{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+    color:hsl(234, 14%, 74%);
+    font-weight: 700;
+   
+}
+
+header p{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+main{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    margin-top:10px;
+}
+main h6{
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.8;
+    color: hsl(233, 13%, 49%);
+}
+
+.common{
+    width: 35vh;
+    height: 55vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 3px;
+    background-color: white;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+
+
+}
+
+.common p{
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.8;
+    color: hsl(233, 13%, 49%);
+    border-top: 1px solid hsl(234, 14%, 74%);
+    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.bottomLine{
+    border-bottom:1px solid hsl(234, 14%, 74%);
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+
+.common button{
+    margin: 20px 0px 20px 0px;
+    padding: 10px 10px;
+    width: 75%;
+    border-style: none;
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+
+footer{
+    margin-top: 30px;
+}
+
+main #basic.common:hover{
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+}
