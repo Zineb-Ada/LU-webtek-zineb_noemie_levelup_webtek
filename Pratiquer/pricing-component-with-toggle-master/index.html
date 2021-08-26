@@ -7,8 +7,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="index.js"></script>
   <title>Frontend Mentor | [Noemie Zineb]</title>
-
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -22,7 +22,7 @@
     <div id="switch">
       <h6>Annually</h6>
       <label class="switchBox">
-        <input type="checkbox">
+        <input type="checkbox" value="on">
         <span class="slider round"></span>
       </label>
       <h6>Monthly</h6>
@@ -31,8 +31,7 @@
   <main> 
     <div id="basic" class="common">
       <h5>Basic</h5>
-      <h1>$19.99</h1> 
-      <!-- <h1>$199.99</h1>    -->
+      <h1 id="forswitchbox" >$19.99</h1> 
       <p>500 GB Storage</p> 
       <p>2 Users Allowed</p>
       <p class="bottomLine">Send up to 3 GB</p>
@@ -41,8 +40,7 @@
 
     <div id="pro" class="common">
       <h5>Professional</h5>
-      <h1>$24.99</h1> 
-      <!-- <h1>$249.99</h1>    -->
+      <h1 id="forswitchbox2">$24.99</h1> 
       <p>1 TB Storage</p> 
       <p>5 Users Allowed</p>
       <p class="bottomLine">Send up to 10 GB</p>
@@ -51,8 +49,7 @@
 
     <div id="master" class="common">
       <h5>Master</h5>
-      <h1>$39.99</h1> 
-      <!-- <h1>$399.99</h1>    -->
+      <h1 id="forswitchbox3">$39.99</h1> 
       <p>2 TB Storage</p> 
       <p>10 Users Allowed</p>
       <p class="bottomLine">Send up to 20 GB</p>
